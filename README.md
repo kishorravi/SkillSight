@@ -33,28 +33,6 @@ Welcome to the AI-Powered Performance Feedback Generator, a cutting-edge solutio
 | 📊 People Analytics         | Track team-wide strengths and identify gaps across departments.             |
 | 🚀 HRMS Integration         | Integrate with platforms like SAP, Zoho, or BambooHR via CSV/API/DB sync.  |
 
----
-
-## 🔧 Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/ai-feedback-generator.git
-cd ai-feedback-generator
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-# or manually
-pip install keybert sentence-transformers pandas openpyxl
-```
-
-### 3. Mount Drive (if using Google Colab)
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
 
 ---
 
