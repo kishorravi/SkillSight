@@ -11,6 +11,7 @@ Welcome to the AI-Powered Performance Feedback Generator, a cutting-edge solutio
 - Vary feedback suggestions based on **performance rating tiers**.
 - Ensure unbiased, consistent, and constructive performance evaluations.
 - Enable easy **integration with HR data sources** (Excel, databases, APIs).
+- Ensure **unique feedback** even for employees with the **same rating and job role** using AI-driven name-based personalization.
 
 ---
 
@@ -33,7 +34,6 @@ Welcome to the AI-Powered Performance Feedback Generator, a cutting-edge solutio
 | 📊 People Analytics         | Track team-wide strengths and identify gaps across departments.             |
 | 🚀 HRMS Integration         | Integrate with platforms like SAP, Zoho, or BambooHR via CSV/API/DB sync.  |
 
-
 ---
 
 ## 📊 How It Works
@@ -50,11 +50,11 @@ df = pd.read_excel(path)
    - Extracts top N keywords from the "Key Skills" column using **KeyBERT**.
    - Generates customized feedback using AI-driven phrase banks.
    - Adapts the tone based on the employee's **rating**.
-   - Personalizes phrasing using the employee's **name** as a seed for randomization.
+   - Personalizes phrasing using the employee's **name** as a seed for randomization, ensuring **different people receive different feedback** even with the **same job and rating**.
 
 ---
 
-## 🎯 Example
+## 🌟 Example
 ```python
 feedback = generate_feedback(
     df,
